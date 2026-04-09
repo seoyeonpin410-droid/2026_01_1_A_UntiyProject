@@ -14,6 +14,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentLives = maxLives; //생명력 초기화
     }
+
+
     private void OnTriggerEnter(Collider other) 
     {
         if (other.CompareTag("Blobfish"))
